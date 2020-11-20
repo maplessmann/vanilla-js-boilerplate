@@ -48,6 +48,12 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      title: 'Vanilla JS Boilerplate',
+      meta: {
+        description:
+          'Boilerplate that will help you create vanilla JavaScript applications faster',
+      },
+      template: './src/template/index.html',
       appMountId: 'app',
       filename: 'index.html',
     }),
