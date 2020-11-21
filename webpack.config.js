@@ -79,6 +79,14 @@ const config = {
     compress: true,
     port: 9000,
   },
+  resolve: {
+    alias: {
+      modules: path.resolve(__dirname, 'src/modules/'),
+      components: path.resolve(__dirname, 'src/components/'),
+      pages: path.resolve(__dirname, 'src/pages/'),
+      styles: path.resolve(__dirname, 'src/styles/'),
+    },
+  },
 }
 
 module.exports = config
