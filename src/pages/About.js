@@ -1,6 +1,8 @@
+import Header from 'components/Header'
 
 const About = () => {
   return `
+    ${Header()}
     <div className="page about">
       <h1>About</h1>
       <p>
