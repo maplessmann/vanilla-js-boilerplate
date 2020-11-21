@@ -4,7 +4,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin
 
 const config = {
-  entry: './src/index.js',
+  entry: ['./src/index.js', './src/styles/index.scss'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[contenthash].js',
