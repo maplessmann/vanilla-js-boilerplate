@@ -6,9 +6,9 @@
 - Sass
 - Webpack
 
-## Get Started
+## Getting Started
 
-### Install
+### Install dependencies
 
 ```bash
 npm install
@@ -21,3 +21,9 @@ npm run start
 ```
 
 Open the local server at `localhost:9000`
+
+### Build
+
+```bash
+npm run build
+```
